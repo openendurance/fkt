@@ -1,15 +1,15 @@
 {
 	"name": "fkt",
 	"version": "0.0.1",
-	"private": true,
-	"license": "MIT",
 	"description": "A TypeScript toolkit for building endurance sports applications.",
-	"author": "Open Endurance Initiative <team@openendurance.org>",
 	"homepage": "https://fkt.openendurance.org",
+	"private": true,
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:openendurance/fkt.git"
 	},
+	"author": "Open Endurance Initiative <team@openendurance.org>",
+	"license": "MIT",
 	"engines": {
 		"node": "^16.17.0 || ^18.0.0"
 	},
