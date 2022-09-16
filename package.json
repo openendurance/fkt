@@ -1,6 +1,6 @@
 {
 	"name": "fkt",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"description": "A TypeScript toolkit for building endurance sports applications.",
 	"homepage": "https://fkt.openendurance.org",
 	"private": true,
@@ -26,6 +26,7 @@
 		"dev": "turbo run dev"
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.24.4",
 		"@types/jest": "^29.0.3",
 		"eslint": "^8.23.1",
 		"jest": "^29.0.3",
