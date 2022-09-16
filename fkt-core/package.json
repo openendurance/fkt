@@ -1,0 +1,31 @@
+{
+	"name": "fkt",
+	"version": "0.0.0",
+	"description": "A TypeScript toolkit for building endurance sports applications.",
+	"homepage": "https://fkt.openendurance.org",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:openendurance/fkt.git"
+	},
+	"author": "Open Endurance Initiative <team@openendurance.org>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/openendurance/fkt/issues"
+	},
+	"publishConfig": {
+		"access": "public",
+		"@openendurance:registry": "https://registry.npmjs.org"
+	},
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc -b",
+		"lint": "TIMING=1 eslint --cache .",
+		"clean": "rm -rf .turbo node_modules dist"
+	},
+	"devDependencies": {
+		"typescript": "^4.8.3"
+	}
+}
