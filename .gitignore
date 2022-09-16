@@ -1,7 +1,8 @@
-.DS_Store
-.next/**
-.turbo
-build/**
-dist/**
-node_modules/**
 *.log
+*.tsbuildinfo
+.DS_Store
+.next
+.turbo
+build
+dist
+node_modules
