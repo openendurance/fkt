@@ -6,8 +6,9 @@
 			"dependsOn": ["^build"]
 		},
 		"test": {
+			"dependsOn": ["build"],
 			"outputs": [],
-			"dependsOn": []
+			"inputs": ["src/**/*.tsx", "src/**/*.ts", "test/**/*.ts", "test/**/*.tsx"]
 		},
 		"lint": {
 			"outputs": []
