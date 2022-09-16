@@ -1,0 +1,10 @@
+{
+  "name": "fkt",
+  "version": "0.0.1",
+  "description": "A TypeScript toolkit for building endurance sports applications.",
+  "main": "index.js",
+  "repository": "git@github.com:openendurance/fkt.git",
+  "author": "Kristopher Cargile <k@openendurance.org>",
+  "license": "MIT",
+  "private": true
+}
