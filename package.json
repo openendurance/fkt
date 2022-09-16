@@ -22,8 +22,14 @@
 	"scripts": {
 		"build": "turbo run build",
 		"test": "turbo run test",
+		"test:watch": "jest --watch",
 		"lint": "turbo run lint",
-		"dev": "turbo run dev"
+		"dev": "turbo run dev",
+		"clean": "turbo run clean && rm -rf .turbo node_modules",
+		"format": "prettier . --write",
+		"type-check": "tsc --build",
+		"changeset": "changeset",
+		"release": "turbo run build --filter='!fkt.openendurance.org' && changeset publish"
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "^0.4.6",

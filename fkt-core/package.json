@@ -22,6 +22,9 @@
 	],
 	"scripts": {
 		"build": "tsc -b",
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"format": "prettier . --write",
 		"lint": "TIMING=1 eslint --cache .",
 		"clean": "rm -rf .turbo node_modules dist"
 	},
