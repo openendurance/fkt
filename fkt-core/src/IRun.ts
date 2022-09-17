@@ -1,12 +1,15 @@
 /*
- * File: /fkt/fkt-core/src/IRun.ts
- * Created Date: Thursday, 22nd October 2020 9:10:16 am
- * Author: Kristopher Cargile <k@openendurance.org>
+ * Copyright 2020 Algorythmic, LLC
  *
- * Copyright (c) 2022 Algorythmic, LLC
+ * Use of this source code is governed by an MIT-style
+ * license that can be found in the LICENSE file or at
+ * https://opensource.org/licenses/MIT.
  */
 
-import { IClub, IOeiObject, IOrganizer, IStore } from ".";
+import { IClub } from "./IClub";
+import { IOeiObject } from "./IOeiObject";
+import { IOrganizer } from "./IOrganizer";
+import { IStore } from "./IStore";
 
 /**
  * A group run.
