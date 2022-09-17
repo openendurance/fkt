@@ -2,18 +2,19 @@
 	"compilerOptions": {
 		"baseUrl": "./src",
 		"declaration": true,
-		"module": "es2020",
+		"esModuleInterop": true,
+		"module": "CommonJS",
 		"moduleResolution": "Node",
 		"noImplicitAny": true,
 		"noImplicitReturns": true,
 		"noUnusedLocals": true,
+		"rootDir": "src",
 		"sourceMap": true,
 		"target": "es2020",
 		"outDir": "dist",
 		"paths": {
 			"@fkt-core/*": ["./*"]
-		},
-		"rootDir": "src"
+		}
 	},
 	"compileOnSave": true,
 	"include": ["src/**/*"],
