@@ -25,7 +25,7 @@
 	},
 	"scripts": {
 		"build": "tsc -b",
-		"test": "jest --config ../jest.config.ts",
+		"test": "jest --config ../jest.config.ts --coverage",
 		"test:watch": "jest --watch",
 		"format": "prettier . --write",
 		"lint": "TIMING=1 eslint --cache .",
