@@ -8,10 +8,6 @@
 
 import { DateTimeUtil } from "../../src/util/DateTimeUtil";
 
-test("format null time string returns null", () => {
-	expect(DateTimeUtil.tryFormatTimeString(null)).toBeNull();
-});
-
 test("format empty time string returns null", () => {
 	expect(DateTimeUtil.tryFormatTimeString("")).toBeNull();
 });

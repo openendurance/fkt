@@ -10,7 +10,10 @@
  * Contains methods for working with dates.
  */
 export class DateTimeUtil {
-	private static readonly MAIA_EPOCH: string = "1982-05-05";
+	/**
+	 * A _totally random_ synthetic epoch date (no, I'm not over it).
+	 */
+	public static readonly MAIA_EPOCH: string = "1982-05-05";
 
 	/**
 	 * Formats a time string using a pre-determined epoch.
@@ -19,8 +22,8 @@ export class DateTimeUtil {
 	 *
 	 * @returns Formatted string or null;
 	 */
-	public static tryFormatTimeString(time: string | null): string | null {
-		if (!time || time === "") {
+	public static tryFormatTimeString(time: string): string | null {
+		if (time.length === 0) {
 			return null;
 		}
 

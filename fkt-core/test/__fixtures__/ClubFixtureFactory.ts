@@ -7,15 +7,14 @@
  */
 
 import { v4 } from "uuid";
-
-const MAIA_EPOCH = new Date("1982-05-05T00:00:00.000Z");
+import { DateTimeUtil } from "../../src/util/DateTimeUtil";
 
 export class ClubFixtureFactory {
 	public static create() {
 		return {
 			address: "421 E Main St, Buena Vista, CO 81211",
 			coordinates: { latitude: 38.84310337541561, longitude: -106.12797954471321 },
-			createdAt: MAIA_EPOCH,
+			createdAt: DateTimeUtil.MAIA_EPOCH,
 			email: "porter@grouprunfinder.com",
 			facebook: "http://localhost.com",
 			id: v4(),
@@ -30,7 +29,7 @@ export class ClubFixtureFactory {
 	public static empty() {
 		return {
 			name: "Porter's Running Club",
-			createdAt: MAIA_EPOCH,
+			createdAt: DateTimeUtil.MAIA_EPOCH,
 		};
 	}
 }

@@ -25,11 +25,11 @@
 	},
 	"scripts": {
 		"build": "tsc -b",
-		"test": "jest --config ../jest.config.ts --coverage",
-		"test:watch": "jest --watch",
-		"format": "prettier . --write",
+		"clean": "rm -rf .turbo node_modules dist",
+		"format": "prettier . --write --config ../prettier.config.json",
 		"lint": "TIMING=1 eslint --cache .",
-		"clean": "rm -rf .turbo node_modules dist"
+		"test": "yarn lint && jest --config ../jest.config.ts --coverage",
+		"test:watch": "jest --watch"
 	},
 	"devDependencies": {
 		"typescript": "^4.8.3"
