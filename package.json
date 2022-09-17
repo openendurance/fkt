@@ -15,10 +15,24 @@
 	},
 	"workspaces": {
 		"packages": [
-			"fkt",
+			"fkt-core",
 			"fkt.openendurance.org"
 		]
 	},
+	"keywords": [
+		"cycling",
+		"grf",
+		"grouprunfinder",
+		"group rides",
+		"group runs",
+		"hiking",
+		"oei",
+		"openenduranceinitiative",
+		"open endurance initiative",
+		"running",
+		"thru hiking",
+		"ultrarunning"
+	],
 	"scripts": {
 		"build": "turbo run build",
 		"test": "turbo run test",
