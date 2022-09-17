@@ -3,6 +3,7 @@
 .DS_Store
 .next
 .turbo
+.wip
 build
 dist
 node_modules
