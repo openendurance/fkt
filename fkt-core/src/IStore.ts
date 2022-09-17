@@ -6,12 +6,12 @@
  * https://opensource.org/licenses/MIT.
  */
 
-import { IOeiObject } from "./IOeiObject";
+import { IFktObject } from "./IFktObject";
 
 /**
  * A running store.
  */
-export interface IStore extends IOeiObject {
+export interface IStore extends IFktObject {
 	/**
 	 * Email address.
 	 */

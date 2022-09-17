@@ -9,9 +9,9 @@
 import { ILocation } from "./ILocation";
 
 /**
- * Base OEI domain object.
+ * Base FKT domain object.
  */
-export interface IOeiObject extends ILocation {
+export interface IFktObject extends ILocation {
 	/**
 	 * Street address.
 	 */

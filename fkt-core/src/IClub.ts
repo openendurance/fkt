@@ -1,17 +1,17 @@
 /*
-* Copyright 2021 Algorythmic, LLC
-
-Use of this source code is governed by an MIT-style
-license that can be found in the LICENSE file or at
-https://opensource.org/licenses/MIT.
+ * Copyright 2020 Algorythmic, LLC
+ *
+ * Use of this source code is governed by an MIT-style
+ * license that can be found in the LICENSE file or at
+ * https://opensource.org/licenses/MIT.
  */
 
-import { IOeiObject } from "./IOeiObject";
+import { IFktObject } from "./IFktObject";
 
 /**
  * A running club.
  */
-export interface IClub extends IOeiObject {
+export interface IClub extends IFktObject {
 	/**
 	 * Email address.
 	 */

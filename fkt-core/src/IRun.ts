@@ -7,14 +7,14 @@
  */
 
 import { IClub } from "./IClub";
-import { IOeiObject } from "./IOeiObject";
+import { IFktObject } from "./IFktObject";
 import { IOrganizer } from "./IOrganizer";
 import { IStore } from "./IStore";
 
 /**
  * A group run.
  */
-export interface IRun extends IOeiObject {
+export interface IRun extends IFktObject {
 	/**
 	 * Summary `IClub` info.
 	 */
