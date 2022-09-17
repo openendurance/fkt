@@ -20,9 +20,12 @@
 	"files": [
 		"dist"
 	],
+	"engines": {
+		"node": "^16.17.0 || ^18.0.0"
+	},
 	"scripts": {
 		"build": "tsc -b",
-		"test": "jest",
+		"test": "jest --config ../jest.config.ts",
 		"test:watch": "jest --watch",
 		"format": "prettier . --write",
 		"lint": "TIMING=1 eslint --cache .",

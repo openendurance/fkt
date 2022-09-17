@@ -1,5 +1,14 @@
+/*
+ * Copyright 2020 Algorythmic, LLC
+ *
+ * Use of this source code is governed by an MIT-style
+ * license that can be found in the LICENSE file or at
+ * https://opensource.org/licenses/MIT.
+ */
+
 import { v4 } from "uuid";
-import { MAIA_EPOCH } from ".";
+
+const MAIA_EPOCH = new Date("1982-05-05T00:00:00.000Z");
 
 export class RunFixtureFactory {
 	public static create() {

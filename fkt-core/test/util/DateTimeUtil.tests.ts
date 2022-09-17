@@ -1,12 +1,12 @@
 /*
- * File: /fkt/fkt-core/src/util/__tests__/DateTimeUtil.tests.ts
- * Created Date: Thursday, 22nd October 2020 9:10:16 am
- * Author: Kristopher Cargile <k@openendurance.org>
+ * Copyright 2020 Algorythmic, LLC
  *
- * Copyright (c) 2022 Algorythmic, LLC
+ * Use of this source code is governed by an MIT-style
+ * license that can be found in the LICENSE file or at
+ * https://opensource.org/licenses/MIT.
  */
 
-import { DateTimeUtil } from "../DateTimeUtil";
+import { DateTimeUtil } from "../../src/util/DateTimeUtil";
 
 test("format null time string returns null", () => {
 	expect(DateTimeUtil.tryFormatTimeString(null)).toBeNull();

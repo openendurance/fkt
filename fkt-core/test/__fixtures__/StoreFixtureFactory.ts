@@ -1,7 +1,16 @@
-import { v4 } from "uuid";
-import { MAIA_EPOCH } from ".";
+/*
+ * Copyright 2020 Algorythmic, LLC
+ *
+ * Use of this source code is governed by an MIT-style
+ * license that can be found in the LICENSE file or at
+ * https://opensource.org/licenses/MIT.
+ */
 
-export class ClubFixtureFactory {
+import { v4 } from "uuid";
+
+const MAIA_EPOCH = new Date("1982-05-05T00:00:00.000Z");
+
+export class StoreFixtureFactory {
 	public static create() {
 		return {
 			address: "421 E Main St, Buena Vista, CO 81211",
@@ -11,7 +20,7 @@ export class ClubFixtureFactory {
 			facebook: "http://localhost.com",
 			id: v4(),
 			instagram: "http://localhost.com",
-			name: "Porter's Running Club",
+			name: "Porter's Running Store",
 			phone: "404-555-1212",
 			twitter: "http://localhost.com",
 			website: "http://localhost.com",
@@ -20,7 +29,7 @@ export class ClubFixtureFactory {
 
 	public static empty() {
 		return {
-			name: "Porter's Running Club",
+			name: "Porter's Running Store",
 			createdAt: MAIA_EPOCH,
 		};
 	}

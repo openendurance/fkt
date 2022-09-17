@@ -4,6 +4,5 @@ jestconfig.json
 tsconfig.json
 tsconfig.eslint.json
 .github
-**/__tests/*
-**/__fixtures__/*
+**/test/**/*
 src
