@@ -3,6 +3,7 @@
 		"baseUrl": "./src",
 		"declaration": true,
 		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
 		"module": "CommonJS",
 		"moduleResolution": "Node",
 		"noImplicitAny": true,
