@@ -6,7 +6,7 @@
  * https://opensource.org/licenses/MIT.
  */
 
-import { ILocation } from "./ILocation";
+import { ILocation } from "./geo/ILocation";
 
 /**
  * Base FKT domain object.
