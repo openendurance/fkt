@@ -28,10 +28,11 @@
 		"clean": "rm -rf .turbo node_modules dist",
 		"format": "prettier . --write --config ../prettier.config.json",
 		"lint": "TIMING=1 eslint --cache .",
-		"test": "yarn lint && jest --config ../jest.config.ts --coverage",
+		"test": "jest --coverage",
 		"test:watch": "jest --watch"
 	},
 	"devDependencies": {
+		"@types/uuid": "^8.3.4",
 		"typescript": "^4.8.3"
 	},
 	"dependencies": {
