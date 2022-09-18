@@ -1,7 +1,19 @@
 {
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"declaration": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"target": "es2020"
+	},
+	"compileOnSave": true,
 	"files": [],
-	"references": [
-	  {"path": "./fkt"},
-	  {"path": "./fkt.openendurance.org"},
-	]
-  }
+	"references": [{ "path": "fkt-core" }, { "path": "fkt.openendurance.org" }]
+}

@@ -1,8 +1,27 @@
 {
-    "cSpell.words": [
-        "openendurance",
-        "fkt"
-    ],
+	"cSpell.ignorePaths": [
+		"package-lock.json",
+		"node_modules",
+		"vscode-extension",
+		".git/objects",
+		".vscode",
+		".vscode-insiders",
+		"**/test/**/*"
+	],
+	"cSpell.words": [
+		"algorythmic",
+		"cargile",
+		"fkt",
+		"grf",
+		"grouprunfinder",
+		"IOei",
+		"openendurance",
+		"openenduranceinitiative",
+		"ultrarunning"
+	],
 	"editor.formatOnSave": true,
-  	"editor.formatOnPaste": false
+	"editor.formatOnPaste": false,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	}
 }
