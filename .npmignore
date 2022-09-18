@@ -1,0 +1,8 @@
+.editorconfig
+.prettierrc
+jestconfig.json
+tsconfig.json
+tsconfig.eslint.json
+.github
+**/test/**/*
+src
