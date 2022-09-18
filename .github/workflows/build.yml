@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.17.0, 18.x]
+        node-version: ["16.17.0", "18.x"]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -23,3 +23,8 @@ jobs:
       - run: yarn build
       - run: yarn lint
       - run: yarn test
+      - name: Archive code coverage artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: Coverage Report
+          path: coverage/
