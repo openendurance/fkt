@@ -26,5 +26,5 @@ jobs:
       - name: Archive code coverage artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: Coverage Report
+          name: Coverage report
           path: coverage/
