@@ -1,6 +1,6 @@
 name: Build & Test
 
-on: ["push"]
+on: ["push"] # TODO: fix this for pushes and PRs
 
 jobs:
     build-and-test:

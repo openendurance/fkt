@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: Build and test
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -18,3 +18,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn install --immutable
       - run: yarn build
+      - run: yarn lint
+      - run: yarn test
