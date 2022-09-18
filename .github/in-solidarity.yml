@@ -1,0 +1,7 @@
+rules:
+  master:
+    level: off
+  slave:
+    level: failure
+ignore:
+  - ".github/in-solidarity.yml"
