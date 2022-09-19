@@ -30,11 +30,20 @@ jobs:
           name: Coverage report
           path: coverage/
       - if: success()
-        name: Set final workflow status
+        name: Set final workflow success status
         uses: Sibz/github-status-action@v1
         with:
           authToken: ${{secrets.GITHUB_TOKEN}}
           context: ${{github.workflow}}
           description: "Passed"
+          state: ${{ job.status }}
+          sha: ${{github.event.pull_request.head.sha || github.sha}}
+      - if: failure()
+        name: Set final workflow fail status
+        uses: Sibz/github-status-action@v1
+        with:
+          authToken: ${{secrets.GITHUB_TOKEN}}
+          context: ${{github.workflow}}
+          description: "Failed"
           state: ${{ job.status }}
           sha: ${{github.event.pull_request.head.sha || github.sha}}
