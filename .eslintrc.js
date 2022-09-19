@@ -17,6 +17,7 @@ module.exports = {
 		project: ["./tsconfig.eslint.json", ...packages.map((pkg) => `./${pkg}/tsconfig.json`)],
 	},
 	ignorePatterns: [
+		".turbo",
 		"coverage",
 		"dist",
 		"test",
