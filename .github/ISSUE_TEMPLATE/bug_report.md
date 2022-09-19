@@ -1,7 +1,7 @@
 ---
 name: Issue
 about: Ask a question or create a report to help us improve FKT or the documentation
-labels: "Bug, untriaged"
+labels: bug, untriaged
 ---
 
 **Describe the issue**
