@@ -5,17 +5,25 @@
 			"outputs": ["dist/**", ".next/**", "build/**", ".cache/**"],
 			"dependsOn": ["^build"]
 		},
-		"test": {
-			"dependsOn": ["build"],
-			"outputs": [],
-			"inputs": ["src/**/*.tsx", "src/**/*.ts", "test/**/*.ts", "test/**/*.tsx"]
-		},
-		"lint": {
-			"outputs": []
+		"clean": {
+			"cache": false
 		},
 		"deploy": {
 			"dependsOn": ["build", "test", "lint"],
 			"outputs": []
+		},
+		"lint": {
+			"outputs": [".eslintcache"]
+		},
+		"test": {
+			"dependsOn": ["build"],
+			"outputs": [],
+			"inputs": [
+				"src/**/*.tsx",
+				"src/**/*.ts",
+				"test/**/*.ts",
+				"test/**/*.tsx"
+			]
 		}
 	}
 }
