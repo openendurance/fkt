@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for an FKT feature or documentation
-labels: "Feature request, untriaged"
+labels: feature request, untriaged
 ---
 
 **Is your feature request related to a problem? Please describe.**
