@@ -1,0 +1,12 @@
+{
+	"name": "fkt.openendurance.org",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"build": "tsc -b",
+		"clean": "rm -rf .turbo coverage dist node_modules"
+	},
+	"devDependencies": {
+		"typescript": "^4.8.3"
+	}
+}

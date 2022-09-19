@@ -6,5 +6,5 @@
 	},
 	"extends": "../tsconfig.json",
 	"include": ["src"],
-	"exclude": ["**/.wip/*", "node_modules", "dist", "tests/**/*"]
+	"exclude": ["**/.wip/*", "node_modules", "dist", "test/**/*"]
 }

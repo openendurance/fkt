@@ -1,15 +1,7 @@
 {
 	"name": "fkt",
 	"version": "0.0.0",
-	"description": "A TypeScript toolkit for building endurance sports applications.",
-	"homepage": "https://fkt.openendurance.org",
 	"private": true,
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:openendurance/fkt.git"
-	},
-	"author": "Open Endurance Initiative <team@openendurance.org>",
-	"license": "MIT",
 	"engines": {
 		"node": "^16.17.0 || ^18.0.0"
 	},
@@ -19,20 +11,6 @@
 			"fkt.openendurance.org"
 		]
 	},
-	"keywords": [
-		"cycling",
-		"grf",
-		"grouprunfinder",
-		"group rides",
-		"group runs",
-		"hiking",
-		"oei",
-		"openenduranceinitiative",
-		"open endurance initiative",
-		"running",
-		"thru hiking",
-		"ultrarunning"
-	],
 	"scripts": {
 		"build": "turbo run build",
 		"test": "mkdir -p coverage && turbo run test && yarn test:report",
