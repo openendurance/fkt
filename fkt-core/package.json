@@ -1,6 +1,6 @@
 {
 	"name": "fkt",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "A TypeScript toolkit for building endurance sports applications.",
 	"homepage": "https://fkt.openendurance.org",
 	"repository": {
