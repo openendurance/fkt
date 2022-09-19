@@ -1,14 +1,25 @@
 {
-	"name": "fkt",
+	"name": "@openendurance/fkt",
 	"version": "0.0.0",
 	"description": "A TypeScript toolkit for building endurance sports applications.",
-	"homepage": "https://fkt.openendurance.org",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:openendurance/fkt.git"
-	},
-	"author": "Open Endurance Initiative <team@openendurance.org>",
 	"license": "MIT",
+	"author": "Open Endurance Initiative <team@openendurance.org>",
+	"homepage": "https://fkt.openendurance.org",
+	"repository": "https://github.com/openendurance/fkt",
+	"keywords": [
+		"cycling",
+		"grf",
+		"grouprunfinder",
+		"group rides",
+		"group runs",
+		"hiking",
+		"oei",
+		"openenduranceinitiative",
+		"open endurance initiative",
+		"running",
+		"thru hiking",
+		"ultrarunning"
+	],
 	"bugs": {
 		"url": "https://github.com/openendurance/fkt/issues"
 	},
@@ -31,12 +42,12 @@
 		"test": "jest --coverage && \\cp coverage/coverage-final.json ../coverage/coverage-fkt-core.json",
 		"test:watch": "jest --watch"
 	},
-	"devDependencies": {
-		"@types/uuid": "^8.3.4",
-		"typescript": "^4.8.3"
-	},
 	"dependencies": {
 		"uuid": "^9.0.0",
 		"yup": "^0.32.11"
+	},
+	"devDependencies": {
+		"@types/uuid": "^8.3.4",
+		"typescript": "^4.8.3"
 	}
 }
