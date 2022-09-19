@@ -4,11 +4,7 @@
 	"private": true,
 	"scripts": {
 		"build": "tsc -b",
-		"clean": "rm -rf .turbo coverage dist node_modules",
-		"format": "prettier . --write --config ../prettier.config.json",
-		"lint": "TIMING=1 eslint --cache .",
-		"test": "jest --coverage && \\cp coverage/coverage-final.json ../coverage/coverage-fkt-core.json",
-		"test:watch": "jest --watch"
+		"clean": "rm -rf .turbo coverage dist node_modules"
 	},
 	"devDependencies": {
 		"typescript": "^4.8.3"
