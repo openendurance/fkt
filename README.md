@@ -20,9 +20,9 @@ The project is structured like so:
 
 ```sh
 fkt/
-├── documentation               # Documentation for working in the monorepo
-├── fkt-core           			# The core SDK
-└── fkt.openendurance.org       # Documentation website
+├── documentation            # Documentation for working in the monorepo
+├── fkt-core                 # The core SDK
+└── fkt.openendurance.org    # Documentation website
 ```
 
 ## Commands
