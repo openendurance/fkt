@@ -6,7 +6,7 @@
 [![Build & Test](https://github.com/openendurance/fkt/actions/workflows/build.yml/badge.svg)](https://github.com/openendurance/fkt/actions/workflows/build.yml)
 [![CodeQL](https://github.com/openendurance/fkt/actions/workflows/codeql.yml/badge.svg)](https://github.com/openendurance/fkt/actions/workflows/codeql-analysis.yml)
 
-> A domain-specific TypeScript SDK for building endurance sports applications.
+> A TypeScript toolkit for building endurance sports applications.
 
 | Status | Owner              | Help                                                         |
 | ------ | ------------------ | ------------------------------------------------------------ |
