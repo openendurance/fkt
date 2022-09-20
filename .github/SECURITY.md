@@ -1,10 +1,6 @@
 # Security Policy
 
-If you believe you have found a security vulnerability in any OEI-owned repository, please report it to us through coordinated disclosure.
-
-Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.
-
-Instead, please send an email to [security@openendurance.org](mailto:security@openendurance.org).
+Thanks for helping us keep open source endurance safe for everyone ✨✨
 
 ## Supported Versions
 
@@ -13,6 +9,12 @@ Instead, please send an email to [security@openendurance.org](mailto:security@op
 | 0.0.x   | :white_check_mark: |
 
 ## Reporting a Vulnerability
+
+If you believe you have found a security vulnerability in any OEI-owned repository, please report it to us through coordinated disclosure.
+
+Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.
+
+Instead, please send an email to [security@openendurance.org](mailto:security@openendurance.org).
 
 Please include as much of the information listed below as you can to help us better understand and resolve the issue:
 
