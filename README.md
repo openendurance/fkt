@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/1126366/191141404-95f5a844-e5d4-4b82-8e77-207357efa6b8.png)
+
 # FKT
 
 [![Release](https://github.com/openendurance/fkt/actions/workflows/release.yml/badge.svg)](https://github.com/openendurance/fkt/actions/workflows/release.yml)
