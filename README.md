@@ -58,7 +58,7 @@ Run commands across all workspaces. This uses [`turbo run <command>`](https://tu
 
 ## Contribute to this project
 
-Pull requests are always welcome. See the [contribution guidelines](https://github.com/openendurance/fkt/blob/main/.github/CONTRIBUTING.md) for more information.
+We need your help! Pick something from the [backlog](https://github.com/orgs/openendurance/projects/2) or [suggest a new feature](https://github.com/openendurance/fkt/issues/new). And pull requests are always welcome. See the [contribution guidelines](https://github.com/openendurance/fkt/blob/main/.github/CONTRIBUTING.md) for more information.
 
 ## License
 
