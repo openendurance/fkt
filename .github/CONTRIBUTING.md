@@ -1,10 +1,10 @@
 # How to contribute
 
-FKT is under very active development and is used as the base for most of the applications we're building here at OEI. and hopefully for projects that others (you?) are developing or are running in production. To that end, we want to make it as easy and transparent as possible to contribute. If we are missing anything or can make the process easier in any way, [please let us know](mailto:team@openendurance.org).
+FKT is under very active development and is used as the base for most of the applications we're building here at OEI. and hopefully for projects that others (maybe you? 🤙) are developing or are running in production. To that end, we want to make it as easy and transparent as possible to contribute. If we are missing anything or can make the process easier in any way, [please let us know](mailto:team@openendurance.org).
 
 ## Code of conduct
 
-We expect all participants to read our [code of conduct](https://github.com/openendurance/.github/blob/main/.github/CODE_OF_CONDUCT.md) to understand which actions are and aren’t tolerated.
+We expect all participants to read our [code of conduct](https://github.com/openendurance/fkt/blob/main/.github/CODE_OF_CONDUCT.md) to understand which actions are and aren’t tolerated.
 
 ## Open development
 
