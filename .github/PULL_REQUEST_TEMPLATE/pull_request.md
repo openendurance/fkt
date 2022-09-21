@@ -6,6 +6,10 @@ Fixes #0000
 
 Add some details about what the PR is doing to address the issue, feature request, etc.
 
+### HOW can this pull request be tested?
+
+Add some details about how this PR can be tested by another developer, QA, and so on.
+
 ### Checklist
 
 -   [ ] Unit tests written and passing
