@@ -31,14 +31,14 @@ export class Run<T> extends OeiObject<T> implements IEvent {
 	/**
 	 * Photos associated with this event.
 	 */
-	public photos?: Photo[] | undefined;
+	public photos?: Photo[] = [];
 
 	/**
 	 * Event profile.
 	 *
 	 * Use multiple profiles for events that have multiple distance options.
 	 */
-	public profile: EventProfile[];
+	public profile: EventProfile[] = [];
 
 	/**
 	 * Start date/time of the run.

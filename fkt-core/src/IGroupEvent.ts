@@ -2,8 +2,8 @@ import { CovidStatus } from "CovidStatus";
 import { EventActivity } from "EventActivity";
 import { EventRecurrence } from "EventRecurrence";
 import { IEvent } from "IEvent";
-import { IOrganizer } from "IOrganizer";
 import { Links } from "Links";
+import { Organizer } from "Organizer";
 
 /**
  * A group event like a race, group run, etc.
@@ -32,7 +32,7 @@ export interface IGroupEvent extends IEvent {
 	/**
 	 * The organizer(s) of the event.
 	 */
-	organizer: IOrganizer[];
+	organizer: Organizer[];
 
 	/**
 	 * Optional post-event events, e.g. food/drinks.

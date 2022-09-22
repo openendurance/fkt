@@ -19,7 +19,7 @@ export class EventProfile {
 	/**
 	 * Surface type(s).
 	 */
-	public surface: SurfaceType[];
+	public surface: SurfaceType[] = [];
 
 	/**
 	 * Average gain.

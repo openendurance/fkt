@@ -1,35 +1,34 @@
+import { IPerson } from "IPerson";
 import { OrganizerType } from "OrganizerType";
-
-// TODO: refactor to Person class?
 
 /**
  * An event organizer.
  */
-export interface IOrganizer {
+export class Organizer implements IPerson {
 	/**
 	 * Email address.
 	 */
-	email: string;
+	public email: string;
 
 	/**
 	 * Full name.
 	 */
-	name: string;
+	public name: string;
 
 	/**
 	 * Telephone number.
 	 */
-	phone?: string;
+	public phone?: string;
 
 	/**
 	 * URL to the Organizer's avatar.
 	 */
-	photo?: URL;
+	public photo?: URL;
 
 	/**
 	 * Organizer type, e.g. "person", "store", etc.
 	 *
 	 * Multiple entries indicate a co-organized event.
 	 */
-	type: OrganizerType[];
+	public type: OrganizerType;
 }

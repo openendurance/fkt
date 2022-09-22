@@ -1,7 +1,8 @@
 import { CovidStatus } from "CovidStatus";
+import { EventActivity } from "EventActivity";
 import { EventRecurrence } from "EventRecurrence";
 import { IGroupEvent } from "IGroupEvent";
-import { IOrganizer } from "IOrganizer";
+import { Organizer } from "Organizer";
 import { Club } from "../Club";
 import { Store } from "../Store";
 import { GroupRunType } from "./GroupRunType";
@@ -24,12 +25,12 @@ export class GroupRun<T> extends Run<T> implements IGroupEvent {
 	/**
 	 * Days the group run meets.
 	 */
-	public days: string[];
+	public days: string[] = [];
 
 	/**
 	 * Average group size.
 	 */
-	public groupSize: number[];
+	public groupSize: number[] = [];
 
 	/**
 	 * true if this is a virtual event; otherwise, false.
@@ -39,25 +40,30 @@ export class GroupRun<T> extends Run<T> implements IGroupEvent {
 	/**
 	 * The organizer(s) of the event.
 	 */
-	public organizer: IOrganizer[] | undefined;
+	public organizer: Organizer[] = [];
 
 	/**
-	 * Optional post run events, e.g. food/drinks.
+	 * Optional post-event events, e.g. food/drinks.
 	 */
-	public postRunEvent?: string[];
+	public postEvent: EventActivity[] = [];
+
+	/**
+	 * Optional pre-event events, e.g. food/drinks.
+	 */
+	public preEvent: EventActivity[] = [];
 
 	/**
 	 * Frequency the event occurs.
 	 */
-	recurs: EventRecurrence;
+	public recurs: EventRecurrence;
 
 	/**
 	 * Store affiliated with the run.
 	 */
-	public store?: Store<T> | null;
+	public store?: Store<T>;
 
 	/**
 	 * Run type, e.g. "social", etc.
 	 */
-	public type: GroupRunType[];
+	public type: GroupRunType[] = [];
 }
