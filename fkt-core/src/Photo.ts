@@ -1,5 +1,3 @@
-// TODO: extract collection type for iteration?
-
 /**
  * A photo.
  */
