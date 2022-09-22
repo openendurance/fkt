@@ -1,3 +1,5 @@
+import { OrganizerType } from "OrganizerType";
+
 /**
  * An event organizer.
  */
@@ -20,10 +22,12 @@ export interface IOrganizer {
 	/**
 	 * URL to the Organizer's avatar.
 	 */
-	photo?: string;
+	photo?: URL;
 
 	/**
 	 * Organizer type, e.g. "person", "store", etc.
+	 *
+	 * Multiple entries indicate a co-organized event.
 	 */
-	type?: string;
+	type?: OrganizerType[];
 }

@@ -1,14 +1,14 @@
 /**
  * UTM coordinates.
  */
-export interface ICoordinates {
+export class Coordinates {
 	/**
 	 * Latitude.
 	 */
-	latitude: number;
+	public latitude: number;
 
 	/**
 	 * Longitude.
 	 */
-	longitude: number;
+	public longitude: number;
 }

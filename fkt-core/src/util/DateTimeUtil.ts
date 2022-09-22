@@ -1,3 +1,5 @@
+// TODO: make this into prototype method?
+
 /**
  * Contains methods for working with dates.
  */
