@@ -28,7 +28,7 @@ export class Run<T> extends OeiObject<T> implements IOeiEvent {
 	/**
 	 * Event metadata.
 	 */
-	public eventMeta?: string[];
+	public eventMeta?: { [key: string]: unknown };
 
 	/**
 	 * Event location. undefined for virtual events.

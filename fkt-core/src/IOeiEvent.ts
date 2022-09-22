@@ -21,7 +21,7 @@ export interface IOeiEvent {
 	/**
 	 * Event metadata.
 	 */
-	eventMeta?: string[]; // TODO: make this key/value pairs; rel to db meta?
+	eventMeta?: { [key: string]: unknown };
 
 	/**
 	 * Notes about the event.

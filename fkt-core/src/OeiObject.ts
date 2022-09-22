@@ -2,6 +2,7 @@ import { OeiObjectMeta } from "OeiObjectMeta";
 import { IOeiObjectIdentity } from "./IOeiObjectIdentity";
 
 // TODO: check optional params in all concrete classes
+// TODO: check ctors for init in all concrete classes
 
 /**
  * Base FKT domain entity.
