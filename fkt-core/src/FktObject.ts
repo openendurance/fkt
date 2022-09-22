@@ -32,17 +32,17 @@ export class FktObject implements ILocation {
 	/**
 	 * Facebook URL.
 	 */
-	public facebook?: string;
+	public facebook?: URL;
 
 	/**
-	 * Entity's persistence id.
+	 * The entity's unique id.
 	 */
 	public id?: string;
 
 	/**
 	 * Instagram URL.
 	 */
-	public instagram?: string;
+	public instagram?: URL;
 
 	/**
 	 * Name.
@@ -87,5 +87,5 @@ export class FktObject implements ILocation {
 	/**
 	 * Website URL.
 	 */
-	public website?: string;
+	public website?: URL;
 }

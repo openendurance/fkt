@@ -1,5 +1,5 @@
+import { FktObject } from "./FktObject";
 import { IClub } from "./IClub";
-import { FktObject } from "./IFktObject";
 import { IOrganizer } from "./IOrganizer";
 import { Store } from "./IStore";
 

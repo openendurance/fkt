@@ -1,4 +1,4 @@
-import { FktObject } from "./IFktObject";
+import { FktObject } from "./FktObject";
 
 /**
  * A retail store.

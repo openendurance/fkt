@@ -1,5 +1,5 @@
 /**
- * A run organizer.
+ * An event organizer.
  */
 export interface IOrganizer {
 	/**
