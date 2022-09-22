@@ -16,7 +16,7 @@ export abstract class OeiObject<T> implements IOeiObjectIdentity<T> {
 	/**
 	 * Metadata associated with this entity.
 	 */
-	protected meta?: OeiObjectMeta;
+	protected objectMeta?: OeiObjectMeta;
 
 	/**
 	 * Name.
