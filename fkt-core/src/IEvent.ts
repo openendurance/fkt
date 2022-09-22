@@ -12,7 +12,8 @@ export interface IEvent {
 	endDate: Date | null;
 
 	/**
-	 * Event location. undefined for virtual events.
+	 * Event location. undefined for virtual events, the website URL will
+	 * generally refer to the location.
 	 */
 	location: Location;
 

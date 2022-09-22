@@ -1,7 +1,5 @@
 import { CovidStatus } from "CovidStatus";
 import { EventRecurrence } from "EventRecurrence";
-import { Coordinates } from "geo/Coordinates";
-import { Geohash } from "geo/Geohash";
 import { IGroupEvent } from "IGroupEvent";
 import { IOrganizer } from "IOrganizer";
 import { Club } from "../Club";
@@ -16,27 +14,17 @@ export class GroupRun<T> extends Run<T> implements IGroupEvent {
 	/**
 	 * The COVID-19 status for the event.
 	 */
-	public covid?: CovidStatus | undefined;
-
-	/**
-	 * UTM coordinates of this location.
-	 */
-	public coordinates?: Coordinates | undefined;
+	public covid?: CovidStatus;
 
 	/**
 	 * Club affiliated with the run.
 	 */
-	public club?: Club<T> | null;
+	public club?: Club<T>;
 
 	/**
 	 * Days the group run meets.
 	 */
-	public days?: string[];
-
-	/**
-	 * Geohash for this location.
-	 */
-	public geohash?: Geohash | undefined;
+	public days: string[];
 
 	/**
 	 * Average group size.
