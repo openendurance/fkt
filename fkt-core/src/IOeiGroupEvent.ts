@@ -2,9 +2,9 @@ import { CovidStatus } from "CovidStatus";
 import { IOeiEvent } from "IOeiEvent";
 import { IOrganizer } from "IOrganizer";
 import { Links } from "Links";
+import { OeiEventActivity } from "OeiEventActivity";
 
 // TODO: sort out recurring
-// TODO: make pre/post enums?
 
 /**
  * A group event like a race, group run, etc.
@@ -38,10 +38,10 @@ export interface IOeiGroupEvent extends IOeiEvent {
 	/**
 	 * Optional post-event events, e.g. food/drinks.
 	 */
-	postEvent?: string[];
+	postEvent?: OeiEventActivity[];
 
 	/**
 	 * Optional pre-event events, e.g. food/drinks.
 	 */
-	preEvent?: string[];
+	preEvent?: OeiEventActivity[];
 }

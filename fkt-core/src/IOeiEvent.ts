@@ -1,31 +1,22 @@
-import { Difficulty } from "Difficulty";
+// TODO: how to handle URLs for virtual events?
+
 import { Location } from "geo/Location";
+import { OeiEventProfile } from "OeiEventProfile";
 import { Photo } from "Photo";
-import { SurfaceType } from "SurfaceType";
 
 /**
  * An event like a run, ride, FKT attempt, etc.
  */
 export interface IOeiEvent {
 	/**
-	 * Difficulty.
-	 */
-	difficulty?: Difficulty[];
-
-	/**
-	 * Distance(s).
-	 */
-	distance?: string[];
-
-	/**
 	 * Optional end date/time.
 	 */
-	endDate?: Date | null;
+	endDate: Date | null;
 
 	/**
 	 * Event location. undefined for virtual events.
 	 */
-	location?: Location; // TODO: how to handle URLs for virtual events?
+	location: Location;
 
 	/**
 	 * Event metadata.
@@ -43,17 +34,14 @@ export interface IOeiEvent {
 	photos?: Photo[];
 
 	/**
+	 * Event profile.
+	 *
+	 * Use multiple profiles for events that have multiple distance options.
+	 */
+	profile: OeiEventProfile[];
+
+	/**
 	 * Start date/time of the run.
 	 */
-	startDate?: Date | null;
-
-	/**
-	 * Run surface type(s).
-	 */
-	surface?: SurfaceType[];
-
-	/**
-	 * Average gain for the event.
-	 */
-	vert?: number[]; // TODO: fix this; class, units? How to correlate with distance? Profile class?
+	startDate: Date | null;
 }
