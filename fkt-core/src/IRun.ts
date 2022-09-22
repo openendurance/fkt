@@ -1,12 +1,12 @@
 import { IClub } from "./IClub";
-import { IFktObject } from "./IFktObject";
+import { FktObject } from "./IFktObject";
 import { IOrganizer } from "./IOrganizer";
-import { IStore } from "./IStore";
+import { Store } from "./IStore";
 
 /**
  * A group run.
  */
-export interface IRun extends IFktObject {
+export interface IRun extends FktObject {
 	/**
 	 * Summary `IClub` info.
 	 */
@@ -75,7 +75,7 @@ export interface IRun extends IFktObject {
 	/**
 	 * Summary `IStore` info.
 	 */
-	storeInfo?: IStore | null;
+	storeInfo?: Store | null;
 
 	/**
 	 * Group's Strava URL.

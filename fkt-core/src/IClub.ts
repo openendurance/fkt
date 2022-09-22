@@ -1,9 +1,9 @@
-import { IFktObject } from "./IFktObject";
+import { FktObject } from "./IFktObject";
 
 /**
  * A running club.
  */
-export interface IClub extends IFktObject {
+export interface IClub extends FktObject {
 	/**
 	 * Email address.
 	 */

@@ -1,91 +1,91 @@
 import { ILocation } from "./geo/ILocation";
 
 /**
- * Base FKT domain object.
+ * Base FKT domain entity.
  */
-export interface IFktObject extends ILocation {
+export class FktObject implements ILocation {
 	/**
 	 * Street address.
 	 */
-	address?: string;
+	public address?: string;
 
 	/**
 	 * Date the record was approved for publication.
 	 */
-	approvedAt?: Date;
+	public approvedAt?: Date;
 
 	/**
 	 * User that approved the record.
 	 */
-	approvedBy?: string;
+	public approvedBy?: string;
 
 	/**
 	 * Date the record was created.
 	 */
-	createdAt?: Date;
+	public createdAt?: Date;
 
 	/**
 	 * User that created the record.
 	 */
-	createdBy?: string;
+	public createdBy?: string;
 
 	/**
 	 * Facebook URL.
 	 */
-	facebook?: string;
+	public facebook?: string;
 
 	/**
 	 * Entity's persistence id.
 	 */
-	id?: string;
+	public id?: string;
 
 	/**
 	 * Instagram URL.
 	 */
-	instagram?: string;
+	public instagram?: string;
 
 	/**
 	 * Name.
 	 */
-	name: string;
+	public name: string;
 
 	/**
 	 * User that owns the record.
 	 */
-	owner?: string;
+	public owner?: string;
 
 	/**
 	 * Photos associated with the entity.
 	 */
-	photos?: string[];
+	public photos?: string[];
 
 	/**
 	 * Record status, e.g. "approved", "pending", "rejected", etc.
 	 */
-	status?: string;
+	public status?: string;
 
 	/**
 	 * Reason for the current status, e.g. "new".
 	 */
-	statusReason?: string;
+	public statusReason?: string;
 
 	/**
 	 * Twitter URL, including the handle.
 	 */
-	twitter?: string;
+	public twitter?: string;
 
 	/**
 	 * Date the record was last updated.
 	 */
-	updatedAt?: Date;
+	public updatedAt?: Date;
 
 	/**
 	 * User that last updated the record.
 	 */
-	updatedBy?: string;
+	public updatedBy?: string;
 
 	/**
 	 * Website URL.
 	 */
-	website?: string;
+	public website?: string;
 }

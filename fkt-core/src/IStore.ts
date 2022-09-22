@@ -1,9 +1,9 @@
-import { IFktObject } from "./IFktObject";
+import { FktObject } from "./IFktObject";
 
 /**
- * A running store.
+ * A retail store.
  */
-export interface IStore extends IFktObject {
+export class Store extends FktObject {
 	/**
 	 * Email address.
 	 */
