@@ -1,10 +1,9 @@
 import { CovidStatus } from "CovidStatus";
 import { EventActivity } from "EventActivity";
+import { EventRecurrence } from "EventRecurrence";
 import { IEvent } from "IEvent";
 import { IOrganizer } from "IOrganizer";
 import { Links } from "Links";
-
-// TODO: sort out recurring
 
 /**
  * A group event like a race, group run, etc.
@@ -44,4 +43,9 @@ export interface IGroupEvent extends IEvent {
 	 * Optional pre-event events, e.g. food/drinks.
 	 */
 	preEvent?: EventActivity[];
+
+	/**
+	 * Frequency the event occurs.
+	 */
+	recurs: EventRecurrence;
 }

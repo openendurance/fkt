@@ -1,4 +1,5 @@
 import { CovidStatus } from "CovidStatus";
+import { EventRecurrence } from "EventRecurrence";
 import { Coordinates } from "geo/Coordinates";
 import { Geohash } from "geo/Geohash";
 import { IGroupEvent } from "IGroupEvent";
@@ -56,6 +57,11 @@ export class GroupRun<T> extends Run<T> implements IGroupEvent {
 	 * Optional post run events, e.g. food/drinks.
 	 */
 	public postRunEvent?: string[];
+
+	/**
+	 * Frequency the event occurs.
+	 */
+	recurs: EventRecurrence;
 
 	/**
 	 * Store affiliated with the run.
