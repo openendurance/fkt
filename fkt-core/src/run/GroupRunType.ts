@@ -20,5 +20,10 @@
 	/**
 	 * Structured workout.
 	 */
-	Structured = "structured"
+	Structured = "structured",
+
+	/**
+	 * Unspecified.
+	 */
+	Unspecified = "unspecified"
 }

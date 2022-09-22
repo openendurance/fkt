@@ -10,7 +10,7 @@ export abstract class Club<T> extends OeiObject<T> implements IOrganization {
 	/**
 	 * Email address.
 	 */
-	public email?: string;
+	public email: string;
 
 	/**
 	 * Social media and website links.
@@ -20,7 +20,7 @@ export abstract class Club<T> extends OeiObject<T> implements IOrganization {
 	/**
 	 * Club location.
 	 */
-	public location?: Location;
+	public location: Location;
 
 	/**
 	 * Telephone number.

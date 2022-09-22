@@ -7,12 +7,12 @@ export interface IOrganization {
 	/**
 	 * Email address.
 	 */
-	email?: string;
+	email: string;
 
 	/**
 	 * Organization physical location, if any.
 	 */
-	location?: Location;
+	location: Location;
 
 	/**
 	 * Telephone number.

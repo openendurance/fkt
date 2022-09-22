@@ -17,22 +17,22 @@ export abstract class OeiObjectMeta {
 	/**
 	 * Date the entity was created.
 	 */
-	protected createdAt?: Date;
+	protected createdAt: Date;
 
 	/**
 	 * User that created the entity.
 	 */
-	protected createdBy?: string;
+	protected createdBy: string;
 
 	/**
 	 * User that owns the entity.
 	 */
-	protected owner?: string;
+	protected owner: string;
 
 	/**
 	 * Entity status, e.g. "approved", "pending", "rejected", etc.
 	 */
-	protected status?: OeiObjectStatus;
+	protected status: OeiObjectStatus;
 
 	/**
 	 * Reason for the current status, e.g. "new".

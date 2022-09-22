@@ -1,5 +1,7 @@
 import { OrganizerType } from "OrganizerType";
 
+// TODO: refactor to Person class?
+
 /**
  * An event organizer.
  */
@@ -29,5 +31,5 @@ export interface IOrganizer {
 	 *
 	 * Multiple entries indicate a co-organized event.
 	 */
-	type?: OrganizerType[];
+	type: OrganizerType[];
 }

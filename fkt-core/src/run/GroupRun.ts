@@ -29,7 +29,7 @@ export class GroupRun<T> extends Run<T> implements IGroupEvent {
 	/**
 	 * Average group size.
 	 */
-	public groupSize?: number[];
+	public groupSize: number[];
 
 	/**
 	 * true if this is a virtual event; otherwise, false.
@@ -39,7 +39,7 @@ export class GroupRun<T> extends Run<T> implements IGroupEvent {
 	/**
 	 * The organizer(s) of the event.
 	 */
-	public organizer?: IOrganizer[] | undefined;
+	public organizer: IOrganizer[] | undefined;
 
 	/**
 	 * Optional post run events, e.g. food/drinks.
@@ -59,5 +59,5 @@ export class GroupRun<T> extends Run<T> implements IGroupEvent {
 	/**
 	 * Run type, e.g. "social", etc.
 	 */
-	public type?: GroupRunType[];
+	public type: GroupRunType[];
 }

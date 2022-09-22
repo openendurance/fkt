@@ -17,7 +17,7 @@ export interface IGroupEvent extends IEvent {
 	/**
 	 * Average group size.
 	 */
-	groupSize?: number[];
+	groupSize: number[];
 
 	/**
 	 * true if this is a virtual event; otherwise, false.
@@ -32,17 +32,17 @@ export interface IGroupEvent extends IEvent {
 	/**
 	 * The organizer(s) of the event.
 	 */
-	organizer?: IOrganizer[];
+	organizer: IOrganizer[];
 
 	/**
 	 * Optional post-event events, e.g. food/drinks.
 	 */
-	postEvent?: EventActivity[];
+	postEvent: EventActivity[];
 
 	/**
 	 * Optional pre-event events, e.g. food/drinks.
 	 */
-	preEvent?: EventActivity[];
+	preEvent: EventActivity[];
 
 	/**
 	 * Frequency the event occurs.
