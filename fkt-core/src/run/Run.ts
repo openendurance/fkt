@@ -45,5 +45,5 @@ export class Run<T> extends OeiObject<T> implements IOeiEvent {
 	/**
 	 * Average gain for the run.
 	 */
-	public vert?: string[]; // TODO: fix this; class, units?
+	public vert?: number[];
 }

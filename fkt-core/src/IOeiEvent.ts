@@ -1,5 +1,6 @@
 import { Difficulty } from "Difficulty";
 import { Location } from "geo/Location";
+import { Photo } from "Photo";
 import { SurfaceType } from "SurfaceType";
 
 /**
@@ -39,7 +40,7 @@ export interface IOeiEvent {
 	/**
 	 * Photos associated with this event.
 	 */
-	photos?: string[]; // TODO: extract photo object
+	photos?: Photo[];
 
 	/**
 	 * Start date/time of the run.
@@ -50,4 +51,9 @@ export interface IOeiEvent {
 	 * Run surface type(s).
 	 */
 	surface?: SurfaceType[];
+
+	/**
+	 * Average gain for the event.
+	 */
+	vert?: number[]; // TODO: fix this; class, units? How to correlate with distance? Profile class?
 }
