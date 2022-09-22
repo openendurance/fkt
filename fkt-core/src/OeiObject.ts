@@ -1,8 +1,6 @@
 import { OeiObjectMeta } from "OeiObjectMeta";
 import { IOeiObjectIdentity } from "./IOeiObjectIdentity";
 
-// TODO: check ctors for init in all concrete classes
-
 /**
  * Base FKT domain entity.
  */
