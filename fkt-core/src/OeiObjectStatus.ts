@@ -1,7 +1,7 @@
 /**
  * An entity's status, e.g. "approved", "pending", "rejected", etc.
  */
-export enum FktObjectStatus {
+export enum OeiObjectStatus {
 	/**
 	 * The entity has been "approved", usually via persistent storage.
 	 */

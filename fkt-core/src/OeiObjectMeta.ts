@@ -1,9 +1,9 @@
-import { FktObjectStatus } from "./FktObjectStatus";
+import { OeiObjectStatus } from "./OeiObjectStatus";
 
 /**
  * Domain entity metadata.
  */
-export abstract class FktObjectMeta {
+export abstract class OeiObjectMeta {
 	/**
 	 * Date the entity was approved for publication.
 	 */
@@ -32,7 +32,7 @@ export abstract class FktObjectMeta {
 	/**
 	 * Entity status, e.g. "approved", "pending", "rejected", etc.
 	 */
-	protected status?: FktObjectStatus;
+	protected status?: OeiObjectStatus;
 
 	/**
 	 * Reason for the current status, e.g. "new".

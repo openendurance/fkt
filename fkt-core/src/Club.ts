@@ -1,12 +1,12 @@
 import { IOrganization } from "IOrganization";
 import { Links } from "Links";
 import { Telephone } from "Telephone";
-import { FktObject } from "./FktObject";
+import { OeiObject } from "./OeiObject";
 
 /**
  * A club.
  */
-export abstract class Club<T> extends FktObject<T> implements IOrganization {
+export abstract class Club<T> extends OeiObject<T> implements IOrganization {
 	/**
 	 * Email address.
 	 */

@@ -1,12 +1,12 @@
 import { Difficulty } from "Difficulty";
 import { IOeiEvent } from "IOeiEvent";
 import { SurfaceType } from "SurfaceType";
-import { FktObject } from "../FktObject";
+import { OeiObject } from "../OeiObject";
 
 /**
  * A run.
  */
-export class Run<T> extends FktObject<T> implements IOeiEvent {
+export class Run<T> extends OeiObject<T> implements IOeiEvent {
 	/**
 	 * Difficulty.
 	 */
