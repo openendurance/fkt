@@ -1,11 +1,11 @@
+import { EventProfile } from "EventProfile";
 import { Location } from "geo/Location";
-import { OeiEventProfile } from "OeiEventProfile";
 import { Photo } from "Photo";
 
 /**
  * An event like a run, ride, FKT attempt, etc.
  */
-export interface IOeiEvent {
+export interface IEvent {
 	/**
 	 * Optional end date/time.
 	 */
@@ -36,7 +36,7 @@ export interface IOeiEvent {
 	 *
 	 * Use multiple profiles for events that have multiple distance options.
 	 */
-	profile: OeiEventProfile[];
+	profile: EventProfile[];
 
 	/**
 	 * Start date/time of the run.

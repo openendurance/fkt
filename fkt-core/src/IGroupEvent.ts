@@ -1,15 +1,15 @@
 import { CovidStatus } from "CovidStatus";
-import { IOeiEvent } from "IOeiEvent";
+import { EventActivity } from "EventActivity";
+import { IEvent } from "IEvent";
 import { IOrganizer } from "IOrganizer";
 import { Links } from "Links";
-import { OeiEventActivity } from "OeiEventActivity";
 
 // TODO: sort out recurring
 
 /**
  * A group event like a race, group run, etc.
  */
-export interface IOeiGroupEvent extends IOeiEvent {
+export interface IGroupEvent extends IEvent {
 	/**
 	 * The Covid status for the event.
 	 */
@@ -38,10 +38,10 @@ export interface IOeiGroupEvent extends IOeiEvent {
 	/**
 	 * Optional post-event events, e.g. food/drinks.
 	 */
-	postEvent?: OeiEventActivity[];
+	postEvent?: EventActivity[];
 
 	/**
 	 * Optional pre-event events, e.g. food/drinks.
 	 */
-	preEvent?: OeiEventActivity[];
+	preEvent?: EventActivity[];
 }

@@ -1,7 +1,7 @@
 /**
  * Pre- and post-event activities.
  */
- export enum OeiEventActivity {
+ export enum EventActivity {
 	/**
 	 * A demo (shoes, bikes, etc.)
 	 */

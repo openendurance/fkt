@@ -5,7 +5,7 @@ import { SurfaceType } from "SurfaceType";
 /**
  * An event profile, e.g. difficulty, distance, and so on.
  */
-export class OeiEventProfile {
+export class EventProfile {
 	/**
 	 * Difficulty.
 	 */

@@ -1,7 +1,7 @@
 import { Difficulty } from "Difficulty";
+import { EventProfile } from "EventProfile";
 import { Location } from "geo/Location";
-import { IOeiEvent } from "IOeiEvent";
-import { OeiEventProfile } from "OeiEventProfile";
+import { IEvent } from "IEvent";
 import { Photo } from "Photo";
 import { SurfaceType } from "SurfaceType";
 import { OeiObject } from "../OeiObject";
@@ -9,7 +9,7 @@ import { OeiObject } from "../OeiObject";
 /**
  * A run.
  */
-export class Run<T> extends OeiObject<T> implements IOeiEvent {
+export class Run<T> extends OeiObject<T> implements IEvent {
 	/**
 	 * Difficulty.
 	 */
@@ -50,7 +50,7 @@ export class Run<T> extends OeiObject<T> implements IOeiEvent {
 	 *
 	 * Use multiple profiles for events that have multiple distance options.
 	 */
-	public profile: OeiEventProfile[];
+	public profile: EventProfile[];
 
 	/**
 	 * Start date/time of the run.

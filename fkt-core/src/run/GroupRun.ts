@@ -1,7 +1,7 @@
 import { CovidStatus } from "CovidStatus";
 import { Coordinates } from "geo/Coordinates";
 import { Geohash } from "geo/Geohash";
-import { IOeiGroupEvent } from "IOeiGroupEvent";
+import { IGroupEvent } from "IGroupEvent";
 import { IOrganizer } from "IOrganizer";
 import { Club } from "../Club";
 import { Store } from "../Store";
@@ -11,7 +11,7 @@ import { Run } from "./Run";
 /**
  * A group run.
  */
-export class GroupRun<T> extends Run<T> implements IOeiGroupEvent {
+export class GroupRun<T> extends Run<T> implements IGroupEvent {
 	/**
 	 * The COVID-19 status for the event.
 	 */
