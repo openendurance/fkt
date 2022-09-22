@@ -1,5 +1,3 @@
-// TODO: how to handle URLs for virtual events?
-
 import { Location } from "geo/Location";
 import { OeiEventProfile } from "OeiEventProfile";
 import { Photo } from "Photo";
