@@ -1,5 +1,11 @@
 # FKT
 
+## 0.1.0
+
+### Minor Changes
+
+- [#57](https://github.com/openendurance/fkt/pull/57) [`ecc6308`](https://github.com/openendurance/fkt/commit/ecc6308f132261880aaa6988f10325d2b73c5b61) Thanks [@kcargile](https://github.com/kcargile)! - Major refactor of the core codebase.
+
 ## 0.0.2
 
 ### Patch Changes
