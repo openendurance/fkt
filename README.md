@@ -75,7 +75,7 @@ Photos used in the docs are property of their respective owners (probably @kcarg
 </div>
 <br />
 <div align="center">
-	Copyright (c) 2022 <a href="https://algorythmic.com">Algorythmic, LLC</a>
+	Copyright © 2022 <a href="https://algorythmic.com">Algorythmic, LLC</a>
 </div>
 <br />
 <div align="center">
