@@ -72,7 +72,7 @@ Source code in this repository and related [NPM packages](https://www.npmjs.com/
 
 Photos used in the docs are property of their respective owners (probably [@kcargile](https://github.com/kcargile)) and are subject to copyright unless otherwise specified.
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenendurance%2Ffkt.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenendurance%2Ffkt?ref=badge_small)
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B33512%2Fgithub.com%2Fopenendurance%2Ffkt.svg?type=small)](https://app.fossa.com/projects/custom%2B33512%2Fgithub.com%2Fopenendurance%2Ffkt?ref=badge_small)
 
 ---
 
