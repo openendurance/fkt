@@ -4,7 +4,7 @@
 		"outDir": "dist",
 		"rootDir": "src"
 	},
-	"extends": "../tsconfig.json",
+	"extends": "../../tsconfig.json",
 	"include": ["src"],
 	"exclude": ["**/.wip/*", "node_modules", "dist", "test/**/*"]
 }

@@ -1,6 +1,5 @@
 {
-	"compilerOptions": {
-		"noEmit": true
-	},
-	"include": ["fkt", "fkt.openendurance.org"]
+	"extends": "@openendurance/eslint-config/tsconfig.eslint.json",
+	"include": ["packages/*"]
 }
+
