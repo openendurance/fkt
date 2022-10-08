@@ -5,16 +5,26 @@
 	"engines": {
 		"node": "^16.17.0 || ^18.0.0"
 	},
-	"workspaces": {
-		"packages": [
-			"fkt-core",
-			"fkt.openendurance.org"
-		]
+	"workspaces": [
+		"packages/*"
+	],
+	"prettier": "@openendurance/prettier-config",
+	"eslintConfig": {
+		"root": true,
+		"extends": "@openendurance/eslint-config"
+	},
+	"jest": {
+		"passWithNoTests": true,
+		"projects": [
+			"<rootDir>/packages/*"
+		],
+		"transform": {
+			"^.+\\.(t)sx?$": "ts-jest"
+		}
 	},
 	"scripts": {
 		"build": "turbo run build",
-		"test": "mkdir -p coverage && turbo run test && yarn test:report",
-		"test:report": "yarn nyc report --temp-dir=coverage --report-dir=coverage --reporter=html",
+		"test": "turbo run test",
 		"test:watch": "jest --watch",
 		"lint": "turbo run lint",
 		"dev": "turbo run dev",
@@ -27,6 +37,10 @@
 	"devDependencies": {
 		"@changesets/changelog-github": "^0.4.6",
 		"@changesets/cli": "^2.24.4",
+		"@openendurance/eslint-config": "^2.1.3",
+		"@openendurance/jest-config": "^2.1.3",
+		"@openendurance/prettier-config": "^2.1.3",
+		"@openendurance/typescript-config": "^2.1.3",
 		"@types/eslint": "^8.4.6",
 		"@types/jest": "^29.0.3",
 		"@types/node": "^18.7.18",

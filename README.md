@@ -12,6 +12,12 @@
 | ------ | ------------------ | ------------------------------------------------------------ |
 | Active | @openendurance/fkt | [New issue](https://github.com/openendurance/fkt/issues/new) |
 
+## Packages
+
+| Name       | NPM                                                                                                                |
+| ---------- | ------------------------------------------------------------------------------------------------------------------ |
+| [fkt](fkt) | [![npm version](https://badge.fury.io/js/@openendurance%2Ffkt.svg)](https://badge.fury.io/js/@openendurance%2Ffkt) |
+
 ## About this repo
 
 The @openendurance/fkt repository is a monorepo made up of npm packages, CLI tools, documentation, and websites.
@@ -64,18 +70,18 @@ We need your help! Pick something from the [backlog](https://github.com/orgs/ope
 
 Source code in this repository and related [NPM packages](https://www.npmjs.com/settings/openendurance/packages) are released under the [MIT license](https://github.com/openendurance/fkt/blob/main/LICENSE.md).
 
-Photos used in the docs are property of their respective owners (probably @kcargile) and are subject to copyright unless otherwise specified.
+Photos used in the docs are property of their respective owners (probably [@kcargile](https://github.com/kcargile)) and are subject to copyright unless otherwise specified.
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenendurance%2Ffkt.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenendurance%2Ffkt?ref=badge_small)
 
 ---
 
 <div align="center">
-	Made with ❤️ in Leadville CO and through contributions from all over the 🌎
+	⛰️⛰️ Made with 💙 in Leadville, CO ⛰️⛰️
 </div>
 <br />
 <div align="center">
-	Copyright (c) 2022 <a href="https://algorythmic.com">Algorythmic, LLC</a>
+	Copyright © 2022 <a href="https://algorythmic.com">Algorythmic, LLC</a>
 </div>
 <br />
 <div align="center">

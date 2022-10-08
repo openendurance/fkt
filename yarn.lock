@@ -871,6 +871,26 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@openendurance/eslint-config@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@openendurance/eslint-config/-/eslint-config-2.1.3.tgz#3a2e6bc839f3d5aa987dffa622a0093aaab58690"
+  integrity sha512-3icFcnP8vT8mAn3vQCsMyMpw4a4Adk1n9f/vsYH8OTclpngktpPa1Ks23r0osU35H3oV0s5lQ+H9ue/SualwWQ==
+
+"@openendurance/jest-config@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@openendurance/jest-config/-/jest-config-2.1.3.tgz#02b42d97ea393e425d4d2a42edf9301bc90f24ac"
+  integrity sha512-31LAuPMObK3BivqRc4hzZzSPCgMfpDWrDgNBlBznMLrWGvpq4oJjpx0MSy9563EH8X/nny1KgG3C2FfWv3aPTg==
+
+"@openendurance/prettier-config@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@openendurance/prettier-config/-/prettier-config-2.1.3.tgz#f258f3d751536e6bf8cb9cbf4c91ec1b92dbf163"
+  integrity sha512-HQ7w1GHyx2eljWgnRxlhB97sHuaLNRPs61D3Hz79w1kfhFeoTDp+ogGe1dbBpnwMFDOFEK/Egj1mukn2lciFVw==
+
+"@openendurance/typescript-config@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@openendurance/typescript-config/-/typescript-config-2.1.3.tgz#ea4b4a39dd22d9c41846c04c0b39d7159b3ab7eb"
+  integrity sha512-mTdEaMctINigc7pBDHSW8EUfHT9IFTlTlwH1ZesOdsOlYy+1xpfiarx9fIwFdqVUJ51JpvAb7viAKNsMwAclSA==
+
 "@sinclair/typebox@^0.24.1":
   version "0.24.41"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.41.tgz#45470b8bae32a28f1e0501066d0bacbd8b772804"
@@ -1003,9 +1023,9 @@
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
 
 "@types/lodash@^4.14.175":
-  version "4.14.185"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.185.tgz#c9843f5a40703a8f5edfd53358a58ae729816908"
-  integrity sha512-evMDG1bC4rgQg4ku9tKpuMh5iBNEwNa3tf9zRHdP1qlv+1WUg44xat4IxCE14gIpZRGUUWAx2VhItCZc25NfMA==
+  version "4.14.186"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.186.tgz#862e5514dd7bd66ada6c70ee5fce844b06c8ee97"
+  integrity sha512-eHcVlLXP0c2FlMPm56ITode2AgLMSa6aJ05JTTbYbI+7EMkCEE5qk2E41d5g2lCVTqRe0GnnRFurmlCsDODrPw==
 
 "@types/minimist@^1.2.0":
   version "1.2.2"

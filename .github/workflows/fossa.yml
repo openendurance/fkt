@@ -1,0 +1,19 @@
+name: FOSSA
+
+on:
+    pull_request:
+        branches:
+            - main
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+    fossa-scan:
+        name: FOSSA Scan
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: fossas/fossa-action@v1.3.1
+              with:
+                  api-key: ${{secrets.FOSSA_TOKEN}}
+                  branch: main

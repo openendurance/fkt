@@ -25,11 +25,6 @@ jobs:
       - run: yarn build
       - run: yarn lint
       - run: yarn test
-      - name: Archive code coverage artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: Coverage report
-          path: coverage/
       - if: success()
         name: Set final workflow success status
         uses: Sibz/github-status-action@v1
