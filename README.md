@@ -1,5 +1,8 @@
 ![image](https://user-images.githubusercontent.com/1126366/191141582-fc642b21-879d-44db-b4c7-d0bac86d7280.png)
 
+> [!WARNING]
+> This repository has been deprecated. Please use [@openendurance/core](https://github.com/openendurance/core) instead.
+
 # FKT
 
 [![Release](https://github.com/openendurance/fkt/actions/workflows/release.yml/badge.svg)](https://github.com/openendurance/fkt/actions/workflows/release.yml)
